@@ -52,8 +52,9 @@ $(document).ready(function(){
         $("#aButton").on("click", function(){
             $("#gifs").empty();
             var animalButton = $("#gif-input").val();
-            var newButton = $("<button/>").addClass( "btn btn-info animal").attr("data-name",animalButton).html(animalButton);
-            $("#buttons").append(newButton);
+            console.log(animalButton);
+            var newButton = $("<button/>").addClass("btn btn-info animal").attr("data-name", animalButton).html(animalButton);
+            $(".someButtons").append(newButton);
             queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animalButton + "&api_key=aU5lv5zCfbbY4WzYmQ3Xc0qtPjEliikq&limit=10";
 
             $.ajax({

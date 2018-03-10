@@ -4,13 +4,17 @@ body {
      overflow: scroll;
 }
 
+.row {
+    width: 800px;
 
-btn btn-info animal {
-    margin: 5px;
 }
 
+button {
+    margin: 7px 5px 7px 0;
+}
+
+
 img {
-    float: left;
     max-width: 150px;
 }
 

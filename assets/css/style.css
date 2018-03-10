@@ -1,11 +1,22 @@
+body {
+     margin: 100px;
+     max-width: 960px;
+     overflow: scroll;
+}
+
 
 btn btn-info animal {
     margin: 5px;
 }
 
+img {
+    float: left;
+    max-width: 150px;
+}
 
 #gifs {
     float: left;
+    margin: 5px;
 
 }
 

@@ -1,0 +1,15 @@
+
+btn btn-info animal {
+    margin: 5px;
+}
+
+
+#gifs {
+    float: left;
+
+}
+
+#more-gifs {
+    float: right; 
+    margin-top: 90px;
+}
